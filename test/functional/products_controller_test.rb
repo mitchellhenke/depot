@@ -8,6 +8,7 @@ class ProductsControllerTest < ActionController::TestCase
       :description => 'Wibbles are fun!',
       :image_url => 'lorem.jpg',
       :price => 19.95
+    }
     end
 
     test "should get index" do
